@@ -1,7 +1,7 @@
 import './App.css';
 import { projects } from './projects';
 import Project from './Project';
-import BirthdayBuddy from './components/01-birthday-buddy/BirthdayBuddy';
+import BirthdayBuddy from './pages/01-birthday-buddy/BirthdayBuddy';
 function App() {
   return (
     <>
