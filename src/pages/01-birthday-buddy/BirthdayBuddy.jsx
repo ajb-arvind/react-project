@@ -11,7 +11,9 @@ const BirthdayBuddy = () => {
   };
 
   return (
+    
     <main id="birthdaybuddy">
+      <h1>Birthday Buddy</h1>
       <section className="container">
         <h3>{persons.length} Birthdays Today</h3>
         <section>
