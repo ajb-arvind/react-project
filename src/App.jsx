@@ -2,7 +2,7 @@ import './App.css';
 import { projects } from './projects';
 import BirthdayBuddy from './pages/01-birthday-buddy/BirthdayBuddy';
 import Tours from './pages/02-tours/Tours';
-import Reviews from './pages/03-reviews/reviews';
+import Reviews from './pages/03-reviews/Reviews';
 
 function App() {
   return (
