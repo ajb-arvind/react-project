@@ -7,13 +7,10 @@ const BirthdayBuddy = () => {
 
   const handlerClick = () => {
     setPerson([]);
-    console.log(persons.length);
   };
 
   return (
-    
     <main id="birthdaybuddy">
-      <h1>Birthday Buddy</h1>
       <section className="container">
         <h3>{persons.length} Birthdays Today</h3>
         <section>
@@ -34,9 +31,6 @@ const BirthdayBuddy = () => {
           Clear All
         </button>
       </section>
-      <a href="#main" className="btn mainpage">
-        Main Page
-      </a>
     </main>
   );
 };

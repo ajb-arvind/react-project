@@ -1,7 +1,9 @@
 import './App.css';
 import { projects } from './projects';
-import Project from './Project';
 import BirthdayBuddy from './pages/01-birthday-buddy/BirthdayBuddy';
+import Tours from './pages/02-tours/Tours';
+import Reviews from './pages/03-reviews/reviews';
+
 function App() {
   return (
     <>
@@ -26,8 +28,13 @@ function App() {
           })}
         </div>
       </section>
-
+      <Tours />
       <BirthdayBuddy />
+      <Reviews />
+      <a href="#main" className="btn mainpage">
+        Main Page
+      </a>
+      ;
     </>
   );
 }
